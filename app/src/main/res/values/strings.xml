@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Otpverify</string>
+    <string name="Profile">Profile</string>
+    <string name="Text">OTP Expired Re-Request The OTP</string>
+    <string-array name="category">
+        <item> Malls</item>
+        <item>Health and Fitness</item>
+        <item>Hospitals</item>
+        <item>Clinics</item>
+        <item>Supermarket</item>
+        <item>Restaurants</item>
+        <item>Clothing</item>
+        <item>Beauty and Salons</item>
+        <item>Medical</item>
+        <item>Sports</item>
+        <item>Schools</item>
+        <item>Accessories</item>
+        <item>Repairing</item>
+        <item>Entertainment</item>
+        <item>ATM</item>
+
+
+    </string-array>
+    <string-array name="state">
+        <item> Karnataka </item>
+
+    </string-array>
+
+</resources>
