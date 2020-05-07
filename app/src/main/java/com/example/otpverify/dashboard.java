@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
@@ -28,6 +29,7 @@ public class dashboard extends AppCompatActivity {
     Button log;
     FirebaseFirestore fBase;
     String userID;
+    ImageView up;
     private static final String TAG ="TAG" ;
 
     @Override
@@ -37,16 +39,23 @@ public class dashboard extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
         fBase = FirebaseFirestore.getInstance();
         oName = findViewById(R.id.name);
-        bName = findViewById(R.id.bname);
+        up=findViewById(R.id.edit);
+        bName = findViewById(R.id.bAme);
         email = findViewById(R.id.Email);
         add = findViewById(R.id.address);
         local = findViewById(R.id.loc);
         cit = findViewById(R.id.city);
-        phoneNo = findViewById(R.id.phone);
+        phoneNo = findViewById(R.id.Phone);
         states = findViewById(R.id.state);
         categor = findViewById(R.id.category);
         log=findViewById(R.id.logmeout);
         userID= Objects.requireNonNull(fAuth.getCurrentUser()).getUid();
+        up.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Update.class));
+            }
+        });
         log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
