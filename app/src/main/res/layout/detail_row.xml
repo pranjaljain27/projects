@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <RelativeLayout
+            android:background="@drawable/designing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/shopimg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/shop"/>
+            <TextView
+                android:id="@+id/recyBusName"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Name"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/shopimg"/>
+
+            <ImageView
+                android:id="@+id/locnimage"
+                android:layout_width="30dp"
+                android:src="@drawable/address"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/recyBusName"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/recyAdd"
+                android:layout_below="@+id/recyBusName"
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/locnimage"/>
+
+            <ImageView
+            android:id="@+id/catimage"
+            android:layout_width="30dp"
+            android:src="@drawable/catnew"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/locnimage"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/recyCat"
+                android:layout_below="@+id/recyAdd"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/locnimage"/>
+
+            <ImageView
+                android:id="@+id/mailimage"
+                android:layout_width="30dp"
+                android:src="@drawable/emailnew"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/catimage"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/recyMail"
+                android:layout_below="@+id/recyCat"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/mailimage"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

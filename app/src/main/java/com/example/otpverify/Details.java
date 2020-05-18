@@ -129,6 +129,7 @@ public class Details extends AppCompatActivity{
                         if(task.isSuccessful())
                         {
                             startActivity(new Intent(getApplicationContext(),dashboard.class));
+                            finish();
                         }
                         else
                         {

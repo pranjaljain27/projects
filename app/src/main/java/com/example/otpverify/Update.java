@@ -50,13 +50,15 @@ public class Update extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 fAuth.signOut();
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),SplashScreen.class));
+                finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),dashboard.class));
+                finish();
             }
         });
         upd.setOnClickListener(new View.OnClickListener() {

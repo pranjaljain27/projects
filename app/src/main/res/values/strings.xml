@@ -1,7 +1,15 @@
 <resources>
-    <string name="app_name">Otpverify</string>
+    <string name="app_name">Near Me</string>
     <string name="Profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="search_baar">Search local business in India</string>
+    <string name="signup">Sign Up</string>
+    <string name="category">Category</string>
+    <string name="yellow_pages_directory">Near Me</string>
+    <string name="todo">TODO</string>
     <string name="Text">OTP Expired Re-Request The OTP</string>
+    <string name="search_for_local_businesses">Search For Local Businesses</string>
+    <string name="search_local_businesses">Search Local Businesses</string>
     <string-array name="category">
         <item> Malls</item>
         <item>Health and Fitness</item>
@@ -23,6 +31,33 @@
     </string-array>
     <string-array name="state">
         <item> Karnataka </item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
 
     </string-array>
 

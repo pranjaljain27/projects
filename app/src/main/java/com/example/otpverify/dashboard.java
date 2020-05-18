@@ -61,7 +61,8 @@ public class dashboard extends AppCompatActivity {
             public void onClick(View v) {
 
                 fAuth.signOut();
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),SplashScreen.class));
+                finish();
             }
         });
 
